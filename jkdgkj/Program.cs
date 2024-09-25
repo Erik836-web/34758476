@@ -10,6 +10,7 @@ namespace jkdgkj
     {
         static void Main(string[] args)
         {
+            //ide kódok jönnek
         }
     }
 }
