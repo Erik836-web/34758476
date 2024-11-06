@@ -9,7 +9,7 @@ be egész számokat a billentyűzetről, amíg azok összege meg nem haladja a 1
 beolvasás végén írjuk ki azt, hogy a bekért számok közül hány volt páros, és hány volt
 páratlan.*/
 
-namespace test
+namespace test2
 {
     class tobbElemOsztaly
     {
@@ -32,45 +32,47 @@ namespace test
         {
             isparos = szam % 2 == 0;
         }
-        public bool oitszamtipus()
+        public bool outszamtipus()
         {
-            return isparos;
+            return this.isparos;
         }
     }
     class Program
     {
         static void Main(string[] args)
         {
-            int sum = 0;
-            int paros = 0;
-            int paratlan = 0;
+            //osztalyvaltozo
+            string valasz = string.Empty;
+            int paros = 0,
+                szam = 0,
+            paratlan = 0;
 
-            while (true)
+            //példányosítjuk az osztákyt
+            //másnéven objektumokat hoztunk létre az osztálynak
+
+            tobbElemOsztaly a = new tobbElemOsztaly();
+
+            //szám megoldása
+            while (paros + paratlan < 100)
             {
-                Console.Write("Adj meg egy számot: ");
-                int szam = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("adj meg egy egész számot");
+                szam = Convert.ToInt32(Console.ReadLine());
 
-                sum += szam;
-
-                if (szam % 2 == 0)
+                a.Getszam(15);
+                a.setszamtipus();
+                if (a.outszamtipus())
                 {
+                    valasz = "paros";
                     paros++;
                 }
                 else
                 {
+                    valasz = "paratlan";
                     paratlan++;
                 }
-
-                if (sum > 100)
-                {
-                    break;
-                }
+                Console.WriteLine($"A szám típusa: {valasz}, eddig {paros + paratlan} számot adott meg. ");
+                Console.ReadKey();
             }
-
-            Console.WriteLine($"a számok összege: {sum}");
-            Console.WriteLine($"Páros számok: {paros}");
-            Console.WriteLine($"Páratlan számok: {paratlan}");
-            Console.ReadLine();
         }
     }
 }
