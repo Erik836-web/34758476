@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace korhasab
+namespace kor
 {
     class kor2
     {
@@ -68,5 +68,4 @@ namespace korhasab
             return this.sugar;
         }
     }
-}
 }

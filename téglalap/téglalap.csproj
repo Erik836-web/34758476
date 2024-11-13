@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4C6AA7EC-5537-4BC4-8BB5-EDE3DA5391EF}</ProjectGuid>
+    <ProjectGuid>{CE97A520-C3E7-4394-8232-11345527960C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>kor</RootNamespace>
-    <AssemblyName>kor</AssemblyName>
+    <RootNamespace>téglalap</RootNamespace>
+    <AssemblyName>téglalap</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="henger.cs" />
-    <Compile Include="kor.cs" />
-    <Compile Include="kor2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="teglalap.cs" />
+    <Compile Include="teglatest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

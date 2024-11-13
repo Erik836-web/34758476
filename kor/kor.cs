@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace korhasab
+namespace kor
 {
     class Program
     {
@@ -32,7 +32,9 @@ namespace korhasab
             kor2 k21 = new kor2(24.5);
             Console.WriteLine($"a kör adatai: \nsugár={k21.getsug()}, kerület = {k21.getker()}, terület = {k21.getter()}");
 
-            Console.ReadKey();
+            henger h1 = new henger(15, 30);
+            Console.WriteLine($"\n\nA henger adatai: \n sugara = {h1.GetSugar()}, magassága = {h1.getmagassag()}, \n alapterülete = {h1.GetTerulet()} = \n térfogata = {h1.getTerfogat()}");
+                Console.ReadKey();
         }
     }
 }

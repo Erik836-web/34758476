@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09-25", "09-25\09-25.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kor", "kor\kor.csproj", "{4C6AA7EC-5537-4BC4-8BB5-EDE3DA5391EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "téglalap", "téglalap\téglalap.csproj", "{CE97A520-C3E7-4394-8232-11345527960C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{4C6AA7EC-5537-4BC4-8BB5-EDE3DA5391EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C6AA7EC-5537-4BC4-8BB5-EDE3DA5391EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C6AA7EC-5537-4BC4-8BB5-EDE3DA5391EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE97A520-C3E7-4394-8232-11345527960C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE97A520-C3E7-4394-8232-11345527960C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE97A520-C3E7-4394-8232-11345527960C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE97A520-C3E7-4394-8232-11345527960C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
