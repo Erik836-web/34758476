@@ -50,8 +50,28 @@ namespace HaromszogTipusaOOP
     {
         static void Main(string[] args)
         {
+            int a, b, c;
+
+            while (true)
+            {
+                try
+                {
+                    Console.Write("Kérem adja meg az a oldal hosszát: ");
+                    a = Convert.ToInt32(Console.ReadLine());
+                    Console.Write("Kérem adja meg a b oldal hosszát: ");
+                    b = Convert.ToInt32(Console.ReadLine());
+                    Console.Write("Kérem adja meg a c oldal hosszát: ");
+                    c = Convert.ToInt32(Console.ReadLine());
+                    break;
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.ToString());
+                }
+            }
+
             #region 1.objektum
-            HTipus haromszog1 = new HTipus(5, 12, 13);
+            HTipus haromszog1 = new HTipus(a,b,c);
             Console.WriteLine($"A háromszög érvényes: {haromszog1.valosharomszoge()}");
             Console.WriteLine($"Derékszögű háromszög: {haromszog1.derekszogue()}");
             Console.WriteLine($"Egyenlő szárú háromszög: {haromszog1.egyenloszarue()}");
