@@ -12,6 +12,8 @@ namespace kivetel
         {
             //osztály példányosítása
             kivetelclass k = new kivetelclass();
+
+
             k.kivKezOs();
         }
     }
