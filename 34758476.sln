@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "epmagassag", "epmagassag\ep
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "varos", "varos\varos.csproj", "{69DCF022-BA81-4877-A160-66D2B883BD22}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "abstarct", "ConsoleApp1\abstarct.csproj", "{5E7DC6A6-BF4A-4962-B0D6-F3E2467E0868}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{69DCF022-BA81-4877-A160-66D2B883BD22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69DCF022-BA81-4877-A160-66D2B883BD22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69DCF022-BA81-4877-A160-66D2B883BD22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E7DC6A6-BF4A-4962-B0D6-F3E2467E0868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E7DC6A6-BF4A-4962-B0D6-F3E2467E0868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E7DC6A6-BF4A-4962-B0D6-F3E2467E0868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E7DC6A6-BF4A-4962-B0D6-F3E2467E0868}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
