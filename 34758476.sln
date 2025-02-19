@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "abstarct", "ConsoleApp1\abs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ahahahahahaahha", "ahahahahahaahha\ahahahahahaahha.csproj", "{B23A0D7F-7D46-45B4-9C86-F5B35B9F9189}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "textalign", "textalign\textalign.csproj", "{466482D4-F61A-4FDD-9276-9CF67067F991}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cursor", "cursor\cursor.csproj", "{A0F7DCA4-5DF3-4337-94FF-055E7AFD3771}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{B23A0D7F-7D46-45B4-9C86-F5B35B9F9189}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B23A0D7F-7D46-45B4-9C86-F5B35B9F9189}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B23A0D7F-7D46-45B4-9C86-F5B35B9F9189}.Release|Any CPU.Build.0 = Release|Any CPU
+		{466482D4-F61A-4FDD-9276-9CF67067F991}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{466482D4-F61A-4FDD-9276-9CF67067F991}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{466482D4-F61A-4FDD-9276-9CF67067F991}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{466482D4-F61A-4FDD-9276-9CF67067F991}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0F7DCA4-5DF3-4337-94FF-055E7AFD3771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0F7DCA4-5DF3-4337-94FF-055E7AFD3771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0F7DCA4-5DF3-4337-94FF-055E7AFD3771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0F7DCA4-5DF3-4337-94FF-055E7AFD3771}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
