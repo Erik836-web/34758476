@@ -170,6 +170,7 @@ namespace FormMozg
             this.btnOpCsok.TabIndex = 0;
             this.btnOpCsok.Text = "Csökken";
             this.btnOpCsok.UseVisualStyleBackColor = true;
+            this.btnOpCsok.Click += new System.EventHandler(this.btnOpCsok_Click);
             // 
             // btnOpNo
             // 

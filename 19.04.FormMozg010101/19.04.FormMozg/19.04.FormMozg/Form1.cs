@@ -19,6 +19,8 @@ namespace FormMozg
             maxHeigth = 0,
             minWidth = 0,
             minHeight = 0;
+        private double opvaltas = 0.1,
+            opmin = 0.1;
 
         private void btnFel_Click(object sender, EventArgs e)
         {
@@ -63,7 +65,13 @@ namespace FormMozg
 
         private void btnOpNo_Click(object sender, EventArgs e)
         {
+            Opacity += opvaltas;
+        }
 
+        private void btnOpCsok_Click(object sender, EventArgs e)
+        {
+            Opacity -= opvaltas;
+            Opacity = Opacity<= opmin ? opmin :Opacity;
         }
 
         private void btnFelul_Click(object sender, EventArgs e)
