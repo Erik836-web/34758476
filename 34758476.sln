@@ -31,6 +31,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cursor", "cursor\cursor.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19.4.FormMozg", "19.04.FormMozg010101\19.04.FormMozg\19.04.FormMozg\19.4.FormMozg.csproj", "{DFA23F8C-D32C-4849-9C2C-A2D3AC46A6AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kepekkorbe", "kepekkorbe\kepekkorbe.csproj", "{F81C2B6D-9451-4EC9-B357-1D2BB435D4FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{D7E1B8BB-E731-4910-AC7C-9B26A8064DE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MysqlUsers", "MysqlUsers (2)\MysqlUsers\MysqlUsers.csproj", "{2E062A03-3FAA-4648-BF22-83962845CFBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IktatoMySql", "iktatoMysql\IktatoMySql\IktatoMySql\IktatoMySql.csproj", "{0EDB0705-6610-46BB-9473-334D692934C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBConnectionsClass", "iktatoMysql\DBConnectionsClass\DBConnectionsClass\DBConnectionsClass.csproj", "{ACE9AA2E-ACA7-4463-90C2-6C29DCC3EF26}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +103,26 @@ Global
 		{DFA23F8C-D32C-4849-9C2C-A2D3AC46A6AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFA23F8C-D32C-4849-9C2C-A2D3AC46A6AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFA23F8C-D32C-4849-9C2C-A2D3AC46A6AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F81C2B6D-9451-4EC9-B357-1D2BB435D4FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F81C2B6D-9451-4EC9-B357-1D2BB435D4FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F81C2B6D-9451-4EC9-B357-1D2BB435D4FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F81C2B6D-9451-4EC9-B357-1D2BB435D4FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7E1B8BB-E731-4910-AC7C-9B26A8064DE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7E1B8BB-E731-4910-AC7C-9B26A8064DE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7E1B8BB-E731-4910-AC7C-9B26A8064DE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7E1B8BB-E731-4910-AC7C-9B26A8064DE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E062A03-3FAA-4648-BF22-83962845CFBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E062A03-3FAA-4648-BF22-83962845CFBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E062A03-3FAA-4648-BF22-83962845CFBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E062A03-3FAA-4648-BF22-83962845CFBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EDB0705-6610-46BB-9473-334D692934C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EDB0705-6610-46BB-9473-334D692934C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EDB0705-6610-46BB-9473-334D692934C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EDB0705-6610-46BB-9473-334D692934C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACE9AA2E-ACA7-4463-90C2-6C29DCC3EF26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACE9AA2E-ACA7-4463-90C2-6C29DCC3EF26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACE9AA2E-ACA7-4463-90C2-6C29DCC3EF26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACE9AA2E-ACA7-4463-90C2-6C29DCC3EF26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
